@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+    <form action="">
+       <label for="e-mail">E-mail</label> <br />
+      <input type="e-mail" name="e-mail" id="e-mail" /> <br /> 
+
+      <label for="password">Senha</label> <br />
+      <input type="password" name="password" id="password" /> <br />
+
+      <select name="tipoUsuario" id="tipoUsuario"> <br />
+        <option value="">selecione uma opção</option>
+        <option value="">opção 1</option>
+        <option value="">opção 2</option>
+        <option value="">opção 3</option>
+        <option value="">opção 4</option>
+        <option value="">opção 5</option>
+      </select>
+      <br />
+
+      <input type="checkbox" name="e-mail" id="enviarNotificacoes" />
+      <label for="enviarNotificacoes"> Desejo Receber Novidades</label> <br/>
+
+      <input type="checkbox" name="Novidades" id="Novidades" /> 
+      <label for="Novidades"> Desejo rebecer ofertas </label> <br/>
+
+      <input type="submit" value="Enviar" /> <br />
+      <input type="reset" value="Limpar" /> <br />
+    </form>
+</body>
+</html>
